@@ -1,0 +1,74 @@
+/* style.css */
+
+.main_div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .center_div {
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex; /* Use flex for better alignment */
+    align-items: center;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px; /* Increased padding for better touch/visual appearance */
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Add border for better visibility */
+    border-radius: 5px;
+    outline: none; /* Remove outline on focus */
+  }
+  
+  button {
+    padding: 10px; /* Increased padding for better touch/visual appearance */
+    background-color: #014347; /* Adjusted color for a professional look */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  li {
+    font-size: 1.2em;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: white;
+  }
+  
+  .listcard {
+    background-color: #014347; /* Adjusted color for a professional look */
+    border-radius: 5px;
+    padding: 10px; /* Adjusted padding for better touch/visual appearance */
+    margin: 10px;
+  }
+  
+  .delete{
+    font-weight: 500;
+  
+  }
